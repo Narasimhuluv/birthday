@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        #particles-js{
+            
+            background: #757F9A;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        #ChangeColor{
+            transition: 0.5s all;
+        }
+        .press{
+            position: absolute;
+            top: 38%;
+            left: 35%;
+            font-size: 40px;
+            color: white;
+        
+        }
+        marquee{
+            position: absolute;
+            
+        }
+        .one{
+            top: 5%;
+        }
+
+        .two{
+            bottom: 10%;
+            /* color: yellow; */
+        }
+        .span_size{
+            width: 350px;
+            height: 350px;
+        }
+
+
+
+        img{
+            width: 200px;
+            height: 250px;
+            margin-right: 15px;
+        }
+        img:nth-child(odd){
+            border-radius: 20%;
+        }
+        img:nth-child(even){
+            border-radius: 50%;
+            width: 220px;
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .press{font-size: 20px;
+    margin-top: 20px;
+    margin-left: -40px;}
+
+    img{width: 120px;
+    height: 150px;}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .press{font-size: 20px;
+    margin-left: -40px;}
+} 
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .press{
+            left: 45%;
+        }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .press{
+            left: 45%;
+        }
+}
+    </style>
+</head>
+<body id="particles-js">
+    
+    <div class="press" >
+        <h1 id="ChangeColor">HaPpY BirThDay</h1>
+    </div>
+
+    <marquee class="one" behavior=""  direction="" scrollamount = "10">
+        <!-- <span class="span_size"> -->
+            <img src="https://i.pinimg.com/564x/bd/2c/59/bd2c59d69ee019720ce0a0e8ddd8892c.jpg" alt="">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81JkJVKjuZL._SL1500_.jpg" alt="">
+            <img src="https://i.pinimg.com/originals/5a/57/8c/5a578c9dc160e00437307fc19c2ea9df.jpg" alt="">
+            <img src="https://i2.wp.com/www.candacefaber.com/wp-content/uploads/2020/04/pin-arch-on-bday-cards-birthday-card-drawing-creative.jpg?fit=761%2C1024&ssl=1" alt="">
+            <img src="https://i.pinimg.com/564x/60/80/5e/60805e48806f070cbf5d71d75c14d4c3.jpg" alt="">
+            <img src="https://storage.googleapis.com/groupgreeting/assets/images/covers/HBD-happy-bday-dotted-textures-MS-2021.jpg" alt="">
+            <img src="https://i.pinimg.com/originals/54/40/74/5440743a14c7f25a93cf027305476433.jpg" alt="">
+            <img src="https://images.greetingsisland.com/images/cards/birthday/kids/previews/happy-birthday-confetti.png?auto=format,compress&w=440" alt="">
+            <img src="https://webneel.com/daily/sites/default/files/images/daily/07-2015/12-birthday-greetings-card-design.preview.jpg" alt="">
+            <img src="https://images.unsplash.com/photo-1583875762487-5f8f7c718d14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1431&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1559455208-f82921450174?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1372&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1455732063391-5f50f4df1854?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1517398741578-fc1e1a3c6c1b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1512308795231-7800e7ed6220?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1524293568345-75d62c3664f7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=654&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1573998835860-99848a59f67f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1244&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1512557312158-854f26d79678?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80" alt="">
+        <!-- </span> -->
+    </marquee>
+    <marquee class="two" behavior=""  direction="right" scrollamount = "10">
+        <!-- <span class="span_size"> -->
+            <img src="https://i.pinimg.com/564x/bd/2c/59/bd2c59d69ee019720ce0a0e8ddd8892c.jpg" alt="">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81JkJVKjuZL._SL1500_.jpg" alt="">
+            <img src="https://i.pinimg.com/originals/5a/57/8c/5a578c9dc160e00437307fc19c2ea9df.jpg" alt="">
+            <img src="https://i2.wp.com/www.candacefaber.com/wp-content/uploads/2020/04/pin-arch-on-bday-cards-birthday-card-drawing-creative.jpg?fit=761%2C1024&ssl=1" alt="">
+            <img src="https://i.pinimg.com/564x/60/80/5e/60805e48806f070cbf5d71d75c14d4c3.jpg" alt="">
+            <img src="https://storage.googleapis.com/groupgreeting/assets/images/covers/HBD-happy-bday-dotted-textures-MS-2021.jpg" alt="">
+            <img src="https://i.pinimg.com/originals/54/40/74/5440743a14c7f25a93cf027305476433.jpg" alt="">
+            <img src="https://images.greetingsisland.com/images/cards/birthday/kids/previews/happy-birthday-confetti.png?auto=format,compress&w=440" alt="">
+            <img src="https://webneel.com/daily/sites/default/files/images/daily/07-2015/12-birthday-greetings-card-design.preview.jpg" alt="">
+            <img src="https://images.unsplash.com/photo-1583875762487-5f8f7c718d14?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1464349153735-7db50ed83c84?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1431&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1559455208-f82921450174?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1372&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1455732063391-5f50f4df1854?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1517398741578-fc1e1a3c6c1b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1512308795231-7800e7ed6220?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1524293568345-75d62c3664f7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=654&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1573998835860-99848a59f67f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1244&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1512557312158-854f26d79678?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=675&q=80" alt="">
+        <!-- </span> -->
+    </marquee>
+
+    <script src="/particles.js"></script>
+    <script src="/app.js"></script>
+    <script src="randomColor.js">
+
+        
+
+        
+
+
+    </script>
+</body>
+</html>

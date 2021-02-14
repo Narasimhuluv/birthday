@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: block;
+            margin:20px auto;
+        }
+
+        h1{
+            text-align: center;
+            font-size: 25px;
+        }
+
+        /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    img{
+        width: 100%;
+    }
+
+    h1{
+        top: 0;
+        text-align: center;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
+    </style>
+</head>
+<body>
+    <img id="press" src="https://coverfiles.alphacoders.com/586/58606.jpg" alt="">
+    <h1>Press On Image It Will Display SoMeThing Intresting</h1>
+
+    <script>
+        document.getElementById('press').addEventListener('click',()=>{
+            window.location = "/birthday.html"
+        })
+    </script>
+</body>
+</html>
